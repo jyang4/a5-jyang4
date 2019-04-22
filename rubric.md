@@ -1,7 +1,7 @@
 # A5 Report
 This rubric is intended to help guide expectations and increase transparency. However, it **is not** necessarily fully exhaustive. Make sure to read the detailed explanation on Canvas, and follow the best practices described in the course book and in class.
 
-For this assignment, you must use the appropriate `dplyr` functions to complete each task, returning the specified data type. Partial credit will be given where appropriate. 
+Partial credit will be given where appropriate. 
 
 ## Set up (**13 points**)
 - Creates the file `analysis.R` (**2 points**)
@@ -40,7 +40,7 @@ For this assignment, you must use the appropriate `dplyr` functions to complete 
 - Place a marker at each location point: 3 points
 - Adjust the size of each marker based on a piece of data about the marker: 2 points
 - Include hover or click information showing at least 3 pieces of data about the incident: 3 points
-- Place a line break between each piece of information ("<br>"): 1 point
+- Place a line break between each piece of information: 1 point
 - Lists 2 insights (2 points)
 
 ## Plot of your choice (**15 points**)
@@ -60,4 +60,5 @@ To earn full points, you must not have any `lintr()` errors (an _any_ `.R` file 
 - -4 points for 7 - 8 `lintr` errors
 - -5 points for 9+ `lintr` errors
 
-- 3 points for appropriate use of `dplyr` to perform data manipulation throughout
+- 2 points for appropriate use of `dplyr` to perform data manipulation throughout
+- 1 point for use of comments to describe purpose of code
