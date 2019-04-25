@@ -39,7 +39,7 @@ Partial credit will be given where appropriate.
 - Render an interactive map: 5 points 
 - Place a marker at each location point: 3 points
 - Adjust the size of each marker based on a piece of data about the marker: 2 points
-- Include hover or click information showing at least 3 pieces of data about the incident: 3 points
+- Include hover or click information showing at least 3 pieces of data about the incident (and no irrelevant information): 3 points
 - Place a line break between each piece of information: 1 point
 - Lists 2 insights (2 points)
 
