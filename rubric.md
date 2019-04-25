@@ -44,16 +44,16 @@ Partial credit will be given where appropriate.
 - Lists 2 insights (2 points)
 
 ## Plot of your choice (**15 points**)
-Choice of plot is up to you, but it should be intentionally desiged to answer a specific question about the dataset. 
+Choice of plot is up to you, but it should be intentionally designed to answer a specific question about the dataset. 
 - 2 points: describe a specific question that you intend to answer with your chart
-- 6 points: choose the optimal chart type and graphical encodings of your variables to answer your question of interest (see the Desigining Data Visualizations chapter of the course book). A legend should be included if appropriate (e.g., if you use colors that aren't otherwise explicit).
+- 6 points: choose the optimal chart type and graphical encodings of your variables to answer your question of interest (see the Designing Data Visualizations chapter of the course book). A legend should be included if appropriate (e.g., if you use colors that aren't otherwise explicit).
 - 1 point for a chart title
 - 1 point for an x-axis label
 - 1 point for an y-axis label
 - 4 points for highlighting two insights revealed by the chart
 
 ## Code clarity (**8 points**)
-To earn full points, you must not have any `lintr()` errors (an _any_ `.R` file you create): 
+To earn full points, you must not have any `lintr()` errors (in _any_ `.R` file you create): 
 - -1 point for 1 - 2 `lintr` errors
 - -2 points for 3 - 4 `lintr` errors
 - -3 points for 5 - 6 `lintr` errors
