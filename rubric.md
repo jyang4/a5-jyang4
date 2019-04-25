@@ -22,7 +22,7 @@ Partial credit will be given where appropriate.
 - 3 points: properly computes aggregate information (e.g., groups by a selected column)
 - 2 points: sorts the table by a column of interest
 - 2 points: only include relevant columns
-- 2 points: Columns names must be well formatted (e.g., not the variable names in your data frame)
+- 2 points: Columns names and presented values must be well formatted and presented
 - 2 points: Use an appropriate package to display the table (e.g., not just the raw data frame)
 - 3 points: Describes important insights from the table (e.g., patterns, extreme value, etc.)
 
