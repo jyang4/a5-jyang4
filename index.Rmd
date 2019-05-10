@@ -1,0 +1,49 @@
+---
+title: "2018 Shootings in America"
+author: "Johnny Yang"
+date: "5/7/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(knitr)
+source("analysis.r")
+```
+
+In 2018, the United States had a total of `r num_shootings` shootings. In that `r num_shootings` shootings, `r lives_lost` lives were lost. The city with the most number of people killed as a result of gun violence was `r most_impacted_city`. The city who suffered the most amount of injuries from gun violence was `r most_injured_city`. The total amount of people injured was `r num_people_injured`. This website was compiled to show the different cities and states impacted by gun violence in 2018. This especially means a lot to me as my hometown of Las Vegas, Nevada suffered one of the worst mass shootings in the United States. 
+
+#Summary Table
+This summary table shows the top 5 states with the most fatalities in the United States. These are the states that are the most impacted by shootings. California is ranked as the state with the most fatalities in 2018. In addition, it also measures the number of years lost from the fatalities with average life expectancy of about 79 years and assuming an average age of 30.  In California alone, nearly 2500 years were lost.
+
+```{r }
+kable(most_impacted_state, col.names = c("State",
+"Number of Fatalities", "Years Lost"))
+```
+
+#Single Incident 
+On `r date_of_incident`,`r city_of_incident`, `r state_of_incident`
+experienced an shooting incident. During this incident, `r num_injured_incident`
+individual were injured and `r num_killed_incident` individuals were killed.
+In 2018, `r state_of_incident` state experience `r num_incident_in_state` 
+incidents 
+with this incident being the most fatal. It's shocking to
+see that this is just 1 of `r num_incident_in_ds` in the country.
+To learn more about
+the incident, you can view it
+[here](https://komonews.com/news/local/1-dead-others-wounded-in-skyway-shooting)
+
+This interactive map displays all the shootings in the United States during the year of 2018. The size of each dot is an indicator of how fatal the shooting incident is. This allows readers to see which states are impacted by shootings the most. From the map, we can see that California has the most serious and most occurrences of shootings.In additional, we could see that the Eastern part of the country has seen more shootings than the Western part of the country. We can also see that states likes Utah, Idaho, and Wyoming have never had a shooting incident. 
+
+# Interactive Map
+```{r, echo=FALSE}
+map_i
+```
+
+#Bar graph
+
+This bar graph shows the top ten cities with the highest number of fatalities. From the graph, a blue line indicates the average number of people killed from the list of top 10 most fatal cities. Out of those Thousand Oaks, Parkland, Philadelphia, and Chicago were the most dangerous city to live in. The graph also showed that the lowest amount of fatalities in the top 10 is seven fatalities. In addition Parkland is almost 1.5x the average number of people killed in the graph. I chose a bar graph because I wanted to compare different cities in the top 10 and it involved using one continuous and one discrete variable. I decided to rotate it for easier comparison of the cities.
+
+```{r}
+top_10_cities_plot
+```
